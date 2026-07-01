@@ -1,0 +1,21 @@
+# 原始测序数据
+*.fq.gz
+*.fastq.gz
+
+# 比对产生的超大中间文件
+*.sam
+*.bam
+*.bai
+
+# 基因组索引文件
+*.ht2
+*.fa
+*.fna
+!GCF_003713225.1_Cara_1.0_genomic.gtf
+
+
+fastqcresults/*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db

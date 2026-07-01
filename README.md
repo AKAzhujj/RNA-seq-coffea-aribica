@@ -22,7 +22,7 @@ Raw FASTQ → FastQC (QC) → Trim Galore (trimming) → FastQC (post-trim QC)
 text
 
 ## Repository Structure
-Coffee_RNAseq/
+RNA-seq-Coffee_arabica/
 ├── README.md # You are here
 ├── environment.yml # Conda environment for full reproducibility
 ├── .gitignore # Excludes large intermediate files
@@ -66,7 +66,7 @@ text
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Coffee_RNAseq.git
+git clone https://github.com/AKAzhujj/RNA-seq-coffea-arabica.git
 cd Coffee_RNAseq
 2. Set Up the Conda Environment
 bash
@@ -125,7 +125,7 @@ StringTie v2.2.1
 
 Python 3.8+ (with numpy, pandas)
 
-getFPKM.py & getTPM.py: Custom scripts adapted from [source repository URL]
+getFPKM.py & getTPM.py: Custom scripts adapted from [(https://github.com/gpertea/stringtie/blob/master/prepDE.py](https://github.com/gpertea/stringtie/blob/master/prepDE.py)
 
 Full environment specification in environment.yml.
 
